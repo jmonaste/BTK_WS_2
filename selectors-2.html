@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    div p {
+        color: lime;
+    }
+    div  > div {
+        background: plum;
+    }
+    .es {
+        background: red;
+    }
+    div + section {
+        background: palegoldenrod;
+    }
+    div ~ p {
+        color: powderblue;
+    }
+
+</style>
+
+</head>
+<body>
+    <div>
+        <p>Prueba</p>
+        <p>Es</p>
+        <p>Increíble</p>
+    </div>
+
+    <div>
+        <p>Prueba</p>
+        <div>Es</div>
+    </div>
+
+    <div>
+        <p>Prueba2</p>
+        <p>Es</p>
+        <p>Increíble</p>
+    </div>
+
+    <div>
+        <p>Prueba2</p>
+        <div class="es">Es</div>
+    </div>
+
+    <div>Master</div>
+    <p>selectores, ejemplos</p>
+    <section>Es lo mejor</section>
+
+</body>
+</html>
